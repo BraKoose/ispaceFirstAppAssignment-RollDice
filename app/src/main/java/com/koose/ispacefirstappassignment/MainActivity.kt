@@ -24,9 +24,9 @@ class MainActivity : AppCompatActivity() {
             rolldice()
         }
 
-        val countButton:Button = findViewById(R.id.countup_button)
-        countButton.setOnClickListener {
-            countUp() }
+//        val countButton:Button = findViewById(R.id.countup_button)
+//        countButton.setOnClickListener {
+//            countUp() }
 
     }
 
@@ -50,29 +50,25 @@ class MainActivity : AppCompatActivity() {
 
     }
      // Get the Button View to countUp the Value of the dice rolled
-    private fun  countUp(){
-
-
-        textID = findViewById(R.id.result_text)
-
-         if (textID.text == "HelloWorld!"){
-             textID.text = "1"
-         }else{
-             //Otherwise increase the number up to 6
-             var resultDice = textID.text.toString().toInt()
-
-             if(resultDice<6){
-                 resultDice++
-                 textID.text = resultDice.toString()
-
-                 // for Better understanding Lets Toast what happen lol
-                 Toast.makeText(this, "$resultDice Here i come lol",
-                     Toast.LENGTH_SHORT).show()
-             }
-         }
+//    private fun  countUp(){
+//
+//
+//        diceImage = findViewById(R.id.dice_image)
+//
+//
+//             //Otherwise increase the number up to 6
+//             var resultDice = diceImage.drawable.toString().toInt()
+//
+//             if(resultDice<6){
+//                 resultDice++
+//
+//                 // for Better understanding Lets Toast what happen lol
+//                 Toast.makeText(this, "$resultDice Here i come lol",
+//                     Toast.LENGTH_SHORT).show()
+//             }
+//         }
     }
 
 
 
-}
 

@@ -24,11 +24,11 @@
         android:layout_gravity="center_horizontal"
         android:text="@string/roll_label" />
 
-    <Button
-        android:id="@+id/countup_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:text="@string/countUp_label" />
+<!--    <Button-->
+<!--        android:id="@+id/countup_button"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="center_horizontal"-->
+<!--        android:text="@string/countUp_label" />-->
 
 </LinearLayout>
