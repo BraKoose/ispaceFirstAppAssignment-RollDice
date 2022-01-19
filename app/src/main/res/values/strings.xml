@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ispaceFirstAppAssignment</string>
+    <string name="user_name">Koose</string>
+    <string name="roll_dice">Roll dice</string>
+    <!-- Button label -->
+    <string name="roll_label">Roll</string>
+    <!-- Button label2 -->
+    <string name="countUp_label">Roll Up</string>
+
+    <string name= "helloWorld">Hello World!</string>
+</resources>
